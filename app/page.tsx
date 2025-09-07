@@ -122,7 +122,7 @@ export default function Home() {
         'overflow': 'hidden',
         'width': '800px',
         'height': '600px',
-        'padding': '10px',
+        'padding': '20px',
         'backgroundColor': '#11141e',
       }}>
         {editor}
