@@ -14,7 +14,7 @@ export default function Home() {
 
   const editor = <Editor
     value={code}
-    onChange={(value) => setCode(value)}
+    onChange={(value) => setCode(value || '')}
     defaultLanguage='json'
     options={{
       lineNumbers: 'off',
